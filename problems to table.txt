@@ -1,0 +1,60 @@
+
+***-Data-***
+
+Row data - 'vgchartz-2024.csv'
+Filled data - 'filled_data_vgchartz.csv'
+
+
+1 - Which genre is most in demand, which is most purchased?
+
+ --- The most popular genre is: "Shooter" genre
+
+Top 5 most popular genre: genre
+Shooter         3625.25
+Action          3413.09
+Misc            2601.79
+Sports          2562.45
+Role-Playing    1653.50
+
+
+
+-------------------------------------------------------------------
+2 - Which year had the biggest sales?
+
+ --- 2009 had the highest sales
+
+Name: total_sales, dtype: float64
+year
+2009.0    1367.15
+2010.0    1179.72
+2011.0    1153.02
+2014.0     970.89
+2008.0     967.62
+
+
+
+
+--------------------------------------------------------------------
+3 - Do any consoles seem to specialize in a particular genre?
+
+ --- The most popular console is the PC with 1069 games,
+ --- the next console is  DS with 825 games,
+ --- and the third console with the most games is Android(And) with the most games 677
+
+Name: total_sales, dtype: float64
+The most popular genre
+     console      genre  count
+9       3DS       Misc    370
+49      And       Misc    677
+77       DS       Misc    825
+94     DSiW       Misc    264
+178      NS     Action    277
+213     OSX       Misc    349
+236      PC       Misc   1096
+262     PS2  Adventure    412
+282     PS3       Misc    347
+294     PS4     Action    368
+343     PSP  Adventure    332
+433     Wii       Misc    368
+470    X360     Action    277
+511     XBL    Shooter    379
